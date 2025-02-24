@@ -1,0 +1,32 @@
+/*
+MY COLOR PALETTE
+Color 1 - #bbd8b3
+Color 2 - #6d72c3
+Color 3 - #2d7357
+Color 4 - #1d3763
+Color 5 - #ed9390
+*/
+
+body {
+    background-color:#bbd8b3;
+    text-align:center;
+}
+button {
+    background-color:#1d3763;
+    color:#bbd8b3;
+    font-size:30px;
+    letter-spacing:4px;
+    text-transform:uppercase;
+    width:200px;
+    padding:12px;
+    margin:30px;
+}
+button:hover {
+    background-color:#2d7357;
+    
+}
+
+h1 {
+    font-family: "Raleway", serif;
+}
+
