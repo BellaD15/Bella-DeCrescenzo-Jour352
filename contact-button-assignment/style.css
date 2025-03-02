@@ -8,28 +8,33 @@ Color 5 - #ed9390
 */
 
 body {
-    background-color:#bbd8b3;
-    text-align:center;
+    background-color: #bbd8b3;
+    text-align: center;
 }
 button {
-    background-color:#1d3763;
-    color:#bbd8b3;
-    font-size:30px;
-    letter-spacing:4px;
-    text-transform:uppercase;
-    width:200px;
-    padding:12px;
-    margin:30px;
+    background-color: #1d3763;
+    color: #bbd8b3;
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    width: 200px;
+    padding: 12px;
+    margin: 30px;
+    font-family: "Mulish", sans-serif;
+    border: none;
 }
 button:hover {
-    background-color:#2d7357;
-    
+    background-color: #2d7357;
 }
 
 h1 {
-    font-family: "Raleway", serif;
+    font-family: "Merriweather", serif;
+    font-size: 35px;
+    color: #1d3763;
 }
 
 h2 {
-    font-family: "Open Sans", serif;
+    font-family: "Mulish", sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
 }
