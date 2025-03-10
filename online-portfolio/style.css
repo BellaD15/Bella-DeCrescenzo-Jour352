@@ -1,9 +1,16 @@
+/*
+ * Color Palette
+ * #04377b
+ * #d1e6f6
+ * #ffffff
+ * #000000
+ */
+@media {
 h1 {
     color: #000000;
     font-family: "Michroma", serif;
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 20px;
+    margin-top: 100px;
 }
 
 h2 {
@@ -12,23 +19,56 @@ h2 {
 }
 
 img {
-    width: 80%;
-    margin-left: 50px;
+    width: 70%;
+    border-radius: 10px;
+    margin:auto;
+    display:block;
     margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 button {
-    width: 100%;
+    width: 80%;
     padding: 20px;
     background-color: #04377b;
     color: white;
     margin-top: 60px;
+    margin-left: 30px;
     text-align: center;
     font-family: "Nunito Sans", serif;
     font-size: 20px;
+    border-radius: 30px;
+    margin: auto;
+    display: block;
 }
 
-.container-fluid {
+body {
     background-color: #d1e6f6;
+}
+
+#navigation {
+    text-align:center;
+    margin-top: 20px;
+    background-color: #04377b;
+    color: white;
+    padding: 10px;
+}
+
+h4 {
+    background-color: white;
+    margin-top: 20px;
+    width: 100%;
+}
+h5 {
+    background-color: white;
+    }
+h6{
+    background-color: white;
+    }
+}
+
+button:hover {
+    background-color: #8facbf;
+}
+@media (min-width:576px) {
+    
 }
