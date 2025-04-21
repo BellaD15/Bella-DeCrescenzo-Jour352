@@ -1,0 +1,9 @@
+h1{
+  font-family: "Nunito Sans", sans-serif;
+    margin-bottom: 200px;
+}
+
+#topper {
+    background-image: url(29mag-Therapists-1-superJumbo.jpg);
+    background-size: cover;
+}
