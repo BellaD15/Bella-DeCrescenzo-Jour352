@@ -5,7 +5,6 @@ h1 {
     margin-bottom: 20px;
     margin-top: 50px;
     text-align: center;
-    
   }
 
   h2 {
@@ -19,10 +18,13 @@ h1 {
   width: 100%;
 }
   h3 {
+    font-size: 12px;
+  }
+  h4 {
     font-size: 16px;
     margin-left: 50px;
   }
-  h4 {
+  h5 {
     font-size: 12px;
     margin-bottom: 30px;
     margin-left: 50px;
@@ -31,15 +33,20 @@ h1 {
     margin-right: 50px;
     margin-left: 50px;
   }
+  #smoke {
+    width: 40%;
+    margin: auto;
+    display: block;
+  }
 }
 @media(min-width: 576px){
   h1 {
-    margin-top: 100px;
-  }
-  h3 {
-    margin-left: 100px;
+    margin-top: 80px;
   }
   h4 {
+    margin-left: 100px;
+  }
+  h5 {
     margin-left: 100px;
   }
   p {
@@ -49,16 +56,16 @@ h1 {
 }
 @media(min-width:768px){
     h1 {
-      margin-top: 200px;  
+      margin-top: 170px;  
     }
     h3 {
-    margin-left: 150px;
+    margin-left: 200px;
   }
   h4 {
-    margin-left: 150px;
+    margin-left: 200px;
   }
   p {
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 200px;
+    margin-left: 200px;
   }
 }
