@@ -34,9 +34,12 @@ h1 {
     margin-left: 50px;
   }
   #smoke {
-    width: 40%;
+    width: 80%;
     margin: auto;
     display: block;
+  }
+  #topper {
+    background-color: #b8d2df
   }
 }
 @media(min-width: 576px){
@@ -49,9 +52,31 @@ h1 {
   h5 {
     margin-left: 100px;
   }
-  p {
+  #content {
     margin-right: 100px;
     margin-left: 100px;
+  }
+  .disclaimer {
+    font-style: italic;
+  }
+  .disclaimer a {
+    color: black;
+  }
+  .pullquote {
+    margin: 20px;
+    border-left: 8px solid black;
+  }
+  .quote {
+    font-size: 60px;
+    line-height: 1em;
+    padding-left: 20px;
+  }
+  .name {
+    padding-left: 20px;
+  }
+  .quotemark {
+    font-size: 150px;
+    line-height: 0em;
   }
 }
 @media(min-width:768px){
