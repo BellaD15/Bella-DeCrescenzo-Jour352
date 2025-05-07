@@ -30,8 +30,8 @@
   }
   #content {
     font-family: "Gelasio", serif;
-    margin-right: 50px;
-    margin-left: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
   }
   #topper {
     background-color: #b8d2df;
@@ -70,13 +70,17 @@
   h1 {
     margin-top: 80px;
   }
+  #content {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
 }
 @media (min-width: 768px) {
   h1 {
     margin-top: 170px;
   }
   #content {
-    margin-right: 200px;
-    margin-left: 200px;
+    padding-right: 250px;
+    padding-left: 250px;
   }
 }
