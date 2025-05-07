@@ -23,49 +23,18 @@
   }
   h4 {
     font-size: 16px;
-    margin-left: 50px;
-    font-family: "Gelasio", serif;
   }
   h5 {
     font-size: 12px;
     margin-bottom: 30px;
-    margin-left: 50px;
-    font-family: "Gelasio", serif;
   }
-  p {
+  #content {
+    font-family: "Gelasio", serif;
     margin-right: 50px;
     margin-left: 50px;
-    font-family: "Gelasio", serif;
-  }
-  #smoke {
-    width: 80%;
-    margin: auto;
-    display: block;
   }
   #topper {
     background-color: #b8d2df;
-  }
-  #temp-chart {
-    width: 80%;
-    margin: auto;
-  }
-}
-@media (min-width: 576px) {
-  h1 {
-    margin-top: 80px;
-  }
-  h4 {
-    margin-left: 100px;
-  }
-  h5 {
-    margin-left: 200px;
-  }
-  
-  .disclaimer {
-    font-style: italic;
-  }
-  .disclaimer a {
-    color: black;
   }
   .pullquote {
     border-left: 8px solid black;
@@ -74,8 +43,6 @@
     font-size: 25px;
     line-height: 1.5em;
     font-family: "Nunito Sans", sans-serif;
-    margin-right: 75px;
-    margin-left: 75px;
   }
   .name {
     padding-left: 10px;
@@ -89,34 +56,27 @@
   .before-quote {
     padding-bottom: 20px;
   }
+  .disclaimer {
+    font-style: italic;
+  }
+  .disclaimer a {
+    color: black;
+  }
+  img {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) {
+  h1 {
+    margin-top: 80px;
+  }
 }
 @media (min-width: 768px) {
   h1 {
     margin-top: 170px;
   }
-  h3 {
-    margin-left: 200px;
-  }
-  h4 {
-    margin-left: 200px;
-  }
-  h5 {
-    margin-left: 200px;
-  }
-  p {
+  #content {
     margin-right: 200px;
     margin-left: 200px;
-  }
-}
-@media (min-width: 575px) {
-  p {
-    margin-left: 75px;
-    margin-right: 75px;
-  }
-  h4 {
-    margin-left: 75px;
-  }
-  h5 {
-    margin-left: 75px;
   }
 }
