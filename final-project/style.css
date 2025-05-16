@@ -29,7 +29,7 @@
     margin-bottom: 30px;
   }
   #content {
-    font-family: "Gelasio", serif;
+    font-family: "Nunito Sans", sans-serif;
     padding-right: 50px;
     padding-left: 50px;
   }
@@ -51,7 +51,8 @@
   .quotemark {
     font-size: 120px;
     margin-top: 10px;
-    padding: 50px 0px 0px 0px;
+    float: left;
+    padding: 15px 0px 0px 0px;
   }
   .before-quote {
     padding-bottom: 20px;
