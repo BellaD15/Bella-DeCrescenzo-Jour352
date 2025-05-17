@@ -94,6 +94,15 @@
     margin-top: 200px;
   }
   #content {
+    padding-right: 200px;
+    padding-left: 200px;
+  }
+}
+@media (min-width: 992px) {
+  h1 {
+    margin-top: 300px;
+  }
+  #content {
     padding-right: 250px;
     padding-left: 250px;
   }
